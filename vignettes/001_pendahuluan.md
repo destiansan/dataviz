@@ -78,9 +78,14 @@ kode R di bawah ini\! Kemudian jalankanlah baris kode R dalam *chunk*
 yang telah Anda buat tersebut dengan menggunakan pemintas **Ctrl + Shift
 + Enter**\!
 
-filled.contour(volcano, color.palette = terrain.colors, plot.title =
-title(“Topografi Gunung Maunga Whau”), key.title =
-title(“Tinggi(meter)”))
+``` r
+filled.contour(volcano,
+               color.palette = terrain.colors, 
+               plot.title = title("Topografi Gunung Maunga Whau"), 
+               key.title = title("Tinggi\n(meter)"))
+```
+
+<img src="001_pendahuluan_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
 
 Setelah selesai membuat dokumen R Markdown yang berisikan teks beserta
 *chunk* berisi kode R, Anda dapat klik tombol **Knit** atau pemintas
